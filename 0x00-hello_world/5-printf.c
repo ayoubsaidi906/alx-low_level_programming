@@ -1,5 +1,6 @@
 #include <stdio.h>
 
+/* thi is your main fonction */ 
 int main(void)
 {
 printf("with proper grammar, but the outcome is a piece of art,\n");
