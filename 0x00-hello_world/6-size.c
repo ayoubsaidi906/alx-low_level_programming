@@ -1,5 +1,5 @@
 #include <stdio.h>
-/*
+/**
  * founksiyoun mayn hhhhhh
  */
 int main(void)
