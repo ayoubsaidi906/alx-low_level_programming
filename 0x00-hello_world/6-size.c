@@ -1,12 +1,9 @@
 #include <stdio.h>
-
+/*
+ * founksiyoun mayn hhhhhh
+ */
 int main(void)
 {
-/**
- *
- * sir t9awwad rak tal3ti liya dam had nharr ok
- *
- */
 printf("Size of char: %zu byte(s)\n", sizeof(char));
 printf("Size of int: %zu byte(s)\n", sizeof(int));
 printf("Size of float: %zu byte(s)\n", sizeof(float));
