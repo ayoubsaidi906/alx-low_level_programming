@@ -20,13 +20,13 @@ n = rand() - RAND_MAX / 2;
 printf("Random number: %d\n", n);
 
 if (n > 0)
-printf("%d is positive\n", n);
+printf("%d is positive \n", n);
 
 else if (n < 0)
-printf("%d is negative\n", n);
+printf(" %d is negative\n", n);
 
 else
-printf("%d is rero\n", n);
+printf(" %d is rero\n", n);
 
 return (0);
 }
