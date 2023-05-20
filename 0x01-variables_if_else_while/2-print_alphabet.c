@@ -9,14 +9,14 @@
 
 int main(void)
 {
-char c;
+char i;
 
-for (c = 'a'; c <= 'z'; c++)
+for (i = 'a'; c <= 'z'; i++)
 {
-putchar(c);  // Print each character
+putchar(c);
 }
 
-putchar('\n');  // Print a new line
+putchar('\n');
 
 return (0);
 }
