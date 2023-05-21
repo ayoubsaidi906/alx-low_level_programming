@@ -1,8 +1,10 @@
 #include <stdio.h>
 /**
- * main - is opjectfe
+ * main - Entry point of the program
  *
- * return 0 is 0 is0
+ * Description: This function prints a sentence with proper grammar.
+ *
+ * Return: Always 0 (Success)
  */
 
 int main(void)
