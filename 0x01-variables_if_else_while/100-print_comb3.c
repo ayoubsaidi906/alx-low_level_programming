@@ -4,7 +4,7 @@
  *
  * descreption: thes programme Write a program that prints all possible differ
  *
- * return : 0 always (Succes)
+ * @return : 0 always (Succes)
  */
 
 int main(void)/*hot main - of prograammme*/
