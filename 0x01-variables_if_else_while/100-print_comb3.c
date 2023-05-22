@@ -4,35 +4,26 @@
  *
  * descreption: thes programme Write a program that prints all possible differ
  *
- * return : 0 always (Success)
+ * return : 0 always (Succese)
  */
-int main(void)
-{
-int i, j;
 
-for (i = 0; i <= 8; i++)
-{
-
-for (j = 1 + i; j <= 9; j++)
-{
-
-putchar('0' + i);
-putchar('0' + j);
-{
-
-if (i != 8 || j != 9)
-{
-putchar(',');
-putchar(' ');
+int main(void) {
+    int i, j;
+    
+    for (i = 0; i < 10; i++) {
+        for (j = i + 1; j < 10; j++) {
+            putchar('0' + i);
+            putchar('0' + j);
+            
+            if (i < 9 || j < 8) {
+                putchar(',');
+                putchar(' ');
+            }
+        }
+    }
+    
+    putchar('\n');
+    
+    return (0);
 }
 
-if (j == 9)
-{
-i++;
-i + j;
-}
-}
-}
-}
-return (0);
-}
