@@ -7,21 +7,21 @@
  */
 int main(void)
 {
-    print_alphabet();
-    return (0);
+print_alphabet();
+return (0);
 }
 
 void print_alphabet(void)
 {
-    char c;
-    for (c = 'a'; c <= 'z'; c++)
-    {
-        _putchar(c);
-    }
-    _putchar('\n');
+char c;
+for (c = 'a'; c <= 'z'; c++)
+{
+_putchar(c);
+}
+_putchar('\n');
 }
 
 int _putchar(char c)
 {
-    return putchar(c);
+return _putchar(c);
 }
