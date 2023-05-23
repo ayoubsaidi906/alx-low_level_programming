@@ -1,6 +1,15 @@
 #include <stdio.h>
+#include "include/main.h"
 
-int main(void) {
-  printf("_putchar\n");
-  return 0;
+/**
+ * main - entre point of programme
+ *
+ * descreption: thes programme Write a putchar.
+ *
+ * return : 0 always (Succes)
+ */
+int main(void)
+{
+printf("_putchar\n");
+return (0);
 }
