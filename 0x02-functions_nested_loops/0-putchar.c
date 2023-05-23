@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "include/main.h"
+#include <main.h>
 
 /**
  * main - entre point of programme
