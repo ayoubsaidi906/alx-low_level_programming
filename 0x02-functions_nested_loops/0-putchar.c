@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <main.h>
 
 /**
  * main - entre point of programme
@@ -8,7 +7,7 @@
  *
  * return : 0 always (Succes)
  */
-int main(void)
+char main(char n)
 {
 printf("_putchar\n");
 return (0);
