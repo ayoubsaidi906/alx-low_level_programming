@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 /**
  * print_sign - Checks if a character is lowercase.
  * @c: The character to be checked.
