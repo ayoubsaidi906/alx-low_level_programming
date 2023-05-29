@@ -1,12 +1,11 @@
 #include "main.h"
 #include <stdio.h>
-/**
- * _strlen - is function thet retourn the length of a string
- * @_strlen : char
- * @l: uvjhbkbjjbh
- * Return : to l
- */
 
+/**
+ * _strlen - Returns the length of a string
+ * @s: Pointer to the string.
+ * Return: The length of the string
+ */
 int _strlen(char *s)
 {
 int l = 0;
