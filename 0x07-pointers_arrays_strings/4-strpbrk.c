@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _strpbrk - locates the first occurrence of any character in the string accept
+ * _strpbrk - locates the first occurrence of any character in the string
  * in the string s
  * @s: The string to search
  * @accept: The set of bytes to search
@@ -18,10 +18,8 @@ for (s_ptr = s; *s_ptr != '\0'; s_ptr++)
 for (accept_ptr = accept; *accept_ptr != '\0'; accept_ptr++)
 {
 if (*s_ptr == *accept_ptr)
-return(s_ptr);
+return (s_ptr);
 }
 }
-
-return('\0');
+return ('\0');
 }
-
