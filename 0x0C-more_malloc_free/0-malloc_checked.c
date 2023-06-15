@@ -1,19 +1,15 @@
-#include"main.h"
-#include <stdio.h>
 #include <stdlib.h>
 /**
- * *malloc_checked - allocate memry using malloc and exit if faild
- * @b: intger
- * Return: pointer to the initilizd or null
+ * malloc_checked - Allocate memory using malloc
+ * @b: Integer
+ * Return: Nothings
  */
-
 void *malloc_checked(unsigned int b)
 {
-	void *f = malloc(b);
+	void *p;
 
-	if (f == NULL)
-	{
+	p = malloc(b);
+	if (!p)
 		exit(98);
-	}
-	return (f);
+	return (p);
 }
