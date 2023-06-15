@@ -1,1 +1,1 @@
-0x09-static_libraries
+project for statistic library
