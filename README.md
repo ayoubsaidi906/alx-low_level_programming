@@ -1,1 +1,0 @@
-project for statistic library
